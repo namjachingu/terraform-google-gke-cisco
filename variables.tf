@@ -27,7 +27,7 @@ variable "region" {
 }
 
 
-variable "appD_account_name" {
+variable "appd_account_name" {
   description = "AppDynamics account name."
   type = string
   }
