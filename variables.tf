@@ -51,5 +51,3 @@ variable "appd_password" {
   description = "AppDynamics password."
   type = string
   }
-
-©
