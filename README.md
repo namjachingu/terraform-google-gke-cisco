@@ -33,7 +33,7 @@ Could do Machine Learning on top of Kubernetes.
 
 **Sponsors**
 
-Field sponsor of this project is Michael Maurer and ASE manager is Nicholas Nicolas Cervigni. 
+Field sponsor for this project is Michael Maurer and ASE manager is Nicholas Nicolas Cervigni. 
 
 
 
