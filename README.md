@@ -1,6 +1,6 @@
-This software project is part of a DevNet project at Cisco. Associate System Engineers (ASEs) are helping System Engineers (SEs) in the field with their current projects over a period of two months. 
-
 # Kubernetes Demo/Workshop Application
+
+This software project is part of a DevNet project at Cisco. Associate System Engineers (ASEs) are helping System Engineers (SEs) in the field with their current projects over a period of two months. 
 
 **Business challenge**
 
