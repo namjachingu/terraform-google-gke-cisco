@@ -19,7 +19,11 @@ For this software project, the following tasks have been performed:
 - GKE clusters have been set up. 
 
 **How**
-In order to deploy part of an application in the cloud, it is necesary to choose a cloud platform to deploy the cluster on. In this project, Google Cloud was chosen as our cloud provider. Deploy part of an application in the cloud. 
+
+In order to deploy part of an application in the cloud, it is necesary to choose a cloud platform to deploy a kubernetes cluster on. In this project, Google Cloud was chosen as our cloud provider. On top of the GKE cluster deployed, a script to run the application components are run. 
+
+The Google Cloud provider is responsible for the master node. 
+
 
 **Potentials**
 
