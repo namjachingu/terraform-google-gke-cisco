@@ -85,4 +85,6 @@ resource "local_file" "kubeconfig" {
   ns_to_instrument = "procurement"
 
   instrumentation_app_name = "cnb-procurement"
+   
+  deploy_dbcollector = false
 }
