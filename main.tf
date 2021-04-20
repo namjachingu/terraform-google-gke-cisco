@@ -3,12 +3,10 @@ terraform {
     kubernetes = {
       source = "hashicorp/kubernetes"
       version = ">= 2.0.2"
-      configuration_aliases = [kubernetes.main]
     }
-    kubernetes = {
+    kubernetes2 = {
       source = "hashicorp/kubernetes"
       version = ">= 1.10.0"
-      configuration_aliases = [kubernetes.alternate]
     }
     helm = {
       source = "hashicorp/helm"
