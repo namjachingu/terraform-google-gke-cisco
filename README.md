@@ -1,7 +1,5 @@
 # Kubernetes Demo/Workshop Application
 
-This software project is part of a DevNet project at Cisco. Associate System Engineers (ASEs) are helping System Engineers (SEs) in the field with their current projects over a period of two months. 
-
 **Business challenge**
 
 Cisco is trying to position itself in the Kubernetes space with various products like CCP or AppD among others. Each of these products offer benefits for Kubernetes that can be demoed individually. There is no overarching demo that shows Cisco's capabilities accross different products though. 
