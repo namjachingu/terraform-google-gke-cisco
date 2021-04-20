@@ -8,13 +8,26 @@ Cisco is trying to position itself in the Kubernetes space with various products
 
 **Goal of the project**
 
-The aim is to create a single application that is integrated with various tools, such as AppD or Intersight. The applicaition already exists, and man of the integrations are already working. To get this to the next level, the deployment have to automated to a larger degree. For this software project, the following tasks have been performed:
+The aim is to create a single application that is integrated with various tools, such as AppD or Intersight. The applicaition already exists, and man of the integrations are already working. To get this to the next level, the deployment have to automated to a larger degree. 
+
+**Performed tasks**
+
+For this software project, the following tasks have been performed:
 
 - Creating Terraform scripts to automate the setup of various environments
 - Components that interact with the app have been set up. 
 - GKE clusters have been set up. 
 
-Kubernetes in the cloud. First, we  Deploy part of an application in the cloud. 
+**How**
+In order to deploy part of an application in the cloud, it is necesary to choose a cloud platform to deploy the cluster on. In this project, Google Cloud was chosen as our cloud provider. Deploy part of an application in the cloud. 
+
+**Potentials**
+
+Integrate with ThousandEyes.
+
+Could do Machine Learning on top of Kubernetes. 
+
+**Sponsors**
 
 Field sponsor of this project is Michael Maurer and ASE manager is Nicholas Nicolas Cervigni. 
 
