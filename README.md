@@ -18,7 +18,7 @@ For this software project, the following tasks have been performed:
 
 **How**
 
-In order to deploy part of an application in the cloud, it is necesary to choose a cloud platform to deploy a kubernetes cluster on. In this project, Google Cloud was chosen as our cloud provider. On top of the GKE cluster deployed, you can deploy applications using Terraform.
+In order to deploy part of an application in the cloud, a cloud platform must be chosen to deploy a kubernetes cluster on. For this project, Google Cloud was chosen as our cloud provider. On top of the GKE cluster deployed, you can deploy applications using Terraform.
 
 The Google Cloud provider is responsible for the master node. 
 
