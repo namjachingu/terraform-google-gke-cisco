@@ -6,7 +6,7 @@ Cisco is trying to position itself in the Kubernetes space with various products
 
 **Goal of the project**
 
-The aim is to create a single application that is integrated with various tools, such as AppD or Intersight. The applicaition already exists, and man of the integrations are already working. To get this to the next level, the deployment have to automated to a larger degree. 
+The aim is to create a single application that is integrated with various tools, such as AppD or Intersight. The applicaition already exists, and many of the integrations are already working. To get this to the next level, the deployment have to automated to a larger degree. 
 
 **Performed tasks**
 
@@ -18,7 +18,7 @@ For this software project, the following tasks have been performed:
 
 **How**
 
-In order to deploy part of an application in the cloud, it is necesary to choose a cloud platform to deploy a kubernetes cluster on. In this project, Google Cloud was chosen as our cloud provider. On top of the GKE cluster deployed, a script to run the application components are run. 
+In order to deploy part of an application in the cloud, it is necesary to choose a cloud platform to deploy a kubernetes cluster on. In this project, Google Cloud was chosen as our cloud provider. On top of the GKE cluster deployed, you can deploy applications using Terraform.
 
 The Google Cloud provider is responsible for the master node. 
 
