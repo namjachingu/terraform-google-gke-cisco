@@ -1,5 +1,7 @@
 # Kubernetes Demo/Workshop Application
 
+This project is part of the CSAP FY21 Q3 Devnet project at Cisco. The Devnet project is an opportunity to put into practice everything Devnet-related topics learned in the CSAP program so far. 
+
 ## Business challenge
 
 Cisco is trying to position itself in the Kubernetes space with various products like CCP or AppD among others. Each of these products offer benefits for Kubernetes that can be demoed individually. There is no overarching demo that shows Cisco's capabilities accross different products though. 
