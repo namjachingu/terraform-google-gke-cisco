@@ -31,7 +31,7 @@ Terraform is an open-source infrastructure as a cose (IaaC) software tool create
 
 ## Terraform
 
-Modules defined in Terraform are a collection of resources. 
+Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module are useful to use. 
 
 
 **Files**
@@ -58,6 +58,7 @@ Integrate with ThousandEyes.
 
 Could do Machine Learning on top of Kubernetes. 
 
+Have the GKE cluster and AppD module running on the same script and not two separate ones. 
 
 ## Sponsors
 
