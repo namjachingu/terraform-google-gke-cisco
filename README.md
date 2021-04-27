@@ -59,7 +59,7 @@ Integrate with ThousandEyes.
 Could do Machine Learning on top of Kubernetes. 
 
 
-**Sponsors
+## Sponsors
 
 Field sponsor for this project is Michael Maurer and ASE manager is Nicholas Nicolas Cervigni. 
 
