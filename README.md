@@ -33,6 +33,8 @@ Terraform is an open-source infrastructure as a cose (IaaC) software tool create
 
 Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module are useful to use. 
 
+Due to the AppD module and the google module have versions that are not compatible with each other, the modules were run on two separate scripts.
+
 
 **Files**
 
@@ -43,9 +45,6 @@ Modules defined in Terraform are a collection of resources. They can be referenc
 
 
 
-The Google Cloud provider is responsible for the master node. 
-
-Due to the AppD module and the google module have versions that are not compatible with each other, the modules were run on two separate scripts.
 
 
 
