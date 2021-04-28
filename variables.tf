@@ -9,6 +9,7 @@ variable "secretkey" {
 }
 
 variable "te_token" {
+  description = "ThousandEyes token."
   type = string  
 }
 
