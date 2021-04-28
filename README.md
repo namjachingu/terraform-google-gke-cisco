@@ -31,14 +31,9 @@ Finally, you can check in the AppDynamics UI whether the cluster has been succes
 - `provider.tf` defines the providers for the cluster. Google and Kubernetes providers were defined. 
 - `main.tf` defines the GKE cluster and creates a resource block where a local kubeconfig file stores necessarry information for the cluster. 
 
-Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module could be useful. 
+Modules defined in `main.tf` are a collection of resources. They can be referenced anywhere where the details in that module could be useful. A GCP network module was defined to create a VPC for the cluster, and sets up subnet ranges for the pods and services. The GKE module creates the actual GKE cluster. Speficications such as name, regions, network, node pools, storage and virtual hardware resources are defined in this module. 
 
-A GCP network module was also defined to create a VPC for the cluster, and sets up subnet ranges for the pods and services. 
-
-The GKE module creates the actual GKE cluster. Speficications such as name, regions, network, node pools, storage and virtual hardware resources are defined in this module.   
-
-Due to the AppD module and the google module have versions that are not compatible with each other, the modules were run on two separate scripts.
-
+Additionally, a kubeconfig file is configured to access the GKE cluster. This is referenced in AppDynamics. 
 
 
 ## Installation
