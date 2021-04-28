@@ -29,9 +29,12 @@ The first step in deploying an application in the cloud is to choose a cloud pla
 
 Furthermore, an application can be deployed on top of a Google Kubernetes Engine (GKE) cluster using Terraform. Hence the next step is to define the GKE cluster in terraform.
 
-Terraform is an open-source infrastructure as a cose (IaaC) software tool created by HashiCorp. Using terraform, you can define and provide data center infrastructure using a declarative configuration language called HashiCorp Configuration Language (HCL). Using HCL, you define the infrastructure you want to be deployed, and Terraform will then execute those instructions. Rather than having to write the code to create the infrastructue, you define a plan of what you want executed. 
+Once the GKE cluster is defined and provisioned, the application is ready to be deployed in the cluster made. 
 
 ## Tools
+**Terraform**
+Terraform is an open-source infrastructure as a cose (IaaC) software tool created by HashiCorp. Using terraform, you can define and provide data center infrastructure using a declarative configuration language called HashiCorp Configuration Language (HCL). Using HCL, you define the infrastructure you want to be deployed, and Terraform will then execute those instructions. Rather than having to write the code to create the infrastructue, you define a plan of what you want executed. 
+
 
 Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module could be useful. 
 
@@ -49,12 +52,8 @@ Due to the AppD module and the google module have versions that are not compatib
 - `main.tf` defines the GKE cluster and creates a resource block where a local kubeconfig file stores necessarry information for the cluster. 
 
 
-
-
-
-
-**Terraform cloud & git?**
-
+**Terraform cloud**
+k
 
 ## Potentials
 
