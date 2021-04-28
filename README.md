@@ -33,17 +33,20 @@ Terraform is an open-source infrastructure as a cose (IaaC) software tool create
 
 ## Terraform
 
-Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module are useful to use. 
+Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module could be useful. 
+
+A GCP network module was also defined to create a VPC for the cluster, and sets up subnet ranges for the pods and services. 
+
+The GKE module creates the actual GKE cluster. Speficications such as name, regions, network, node pools, storage and virtual hardware resources are defined in this module.   
 
 Due to the AppD module and the google module have versions that are not compatible with each other, the modules were run on two separate scripts.
 
 
 **Files**
 
-- `variables.tf` defines the variables for the cluster. The values that the variables hold are defined here, or in Terraform cloud. 
+- `variables.tf` defines the variables and the values that the variables hold for the cluster. The values can also be defined in Terraform cloud. 
 - `provider.tf` defines the providers for the cluster. Google and Kubernetes providers were defined. 
-- `main.tf` defines the GKE cluster and saves it as a local configuration file.
-
+- `main.tf` defines the GKE cluster and creates a resource block where a local kubeconfig file stores necessarry information for the cluster. 
 
 
 
