@@ -33,7 +33,7 @@ Finally, you can check in the AppDynamics UI whether the cluster has been succes
 
 Modules defined in `main.tf` are a collection of resources. They can be referenced anywhere where the details in that module could be useful. A GCP network module was defined to create a VPC for the cluster, and sets up subnet ranges for the pods and services. The GKE module creates the actual GKE cluster. Speficications such as name, regions, network, node pools, storage and virtual hardware resources are defined in this module. 
 
-Additionally, a kubeconfig file is configured to access the GKE cluster. This is referenced in AppDynamics. 
+Additionally, a kubeconfig file is configured to access the GKE cluster. This is added to the AppDynamics module. 
 
 
 ## Installation
