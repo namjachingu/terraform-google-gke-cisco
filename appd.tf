@@ -1,5 +1,10 @@
 
  module "appdynamics" {
+  
+  load_config_file = true
+  config_path = "kubeconfig-env_name"
+
+  
   source  = "3191110276/appdynamics/kubernetes"
   version = "0.2.1"
 
