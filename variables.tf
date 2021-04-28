@@ -1,5 +1,5 @@
 variable "apikey" {
-  description = "Intersight API Key"
+  description = "Intersight API Key."
   type    = string
 }
 
