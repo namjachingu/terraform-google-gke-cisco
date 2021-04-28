@@ -36,12 +36,12 @@ variable "appd_account_name" {
   }
 
 variable "appd_global_account" {
-  description = "Global AppDynamics account in AppDynamics Dashboard. Found under Settings - License - Account."
+  description = "Global AppDynamics account. Found in AppDynamics Dashboard under Settings - License - Account."
   type = string
   }
 
 variable "appd_controller_key" {
-  description = "AppDynamics controller key in AppDynamics Dashboard. Found under Settings - License - Account."
+  description = "AppDynamics controller key. Found in AppDynamics Dashboard under Settings - License - Account."
   type = string
   }
 
