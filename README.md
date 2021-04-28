@@ -9,11 +9,11 @@ The aim is to create a single application that is integrated with various tools,
 
 For this software project, the following tasks have been performed:
 
-- [x] Creating Terraform scripts to automate the setup of various environments
-- [x] Components that interact with the app have been set up. 
-- [x] GKE clusters have been set up. 
+- Creating Terraform scripts to automate the setup of various environments
+- Components that interact with the app have been set up. 
+- GKE clusters have been set up. 
 
-This project is two-folded - this part focuses on deploying a GKE cluster and having AppD deployed on top of it.
+This project is two-folded - this part focuses on deploying a GKE cluster and having AppDynamics deployed in it.
 
 ## Solution Components
 
