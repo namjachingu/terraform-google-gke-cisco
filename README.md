@@ -31,7 +31,7 @@ Furthermore, an application can be deployed on top of a Google Kubernetes Engine
 
 Terraform is an open-source infrastructure as a cose (IaaC) software tool created by HashiCorp. Using terraform, you can define and provide data center infrastructure using a declarative configuration language called HashiCorp Configuration Language (HCL). Using HCL, you define the infrastructure you want to be deployed, and Terraform will then execute those instructions. Rather than having to write the code to create the infrastructue, you define a plan of what you want executed. 
 
-## Terraform
+## Tools
 
 Modules defined in Terraform are a collection of resources. They can be referenced anywhere where the details in that module could be useful. 
 
