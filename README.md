@@ -19,7 +19,7 @@ This project is two-folded - this part focuses on deploying a GKE cluster and ha
 
 The first step to deploying an application in the cloud is to choose a cloud platform to deploy a kubernetes cluster on. For this project, Google Cloud was chosen as the cloud provider. A Google Cloud Platform (GCP) account was set up.
 
-Furthermore, an application can be deployed on top of a Google Kubernetes Engine (GKE) cluster using Terraform. Hence the next step is to define the GKE cluster in terraform. Using Terraform Cloud, multiple people could collaborate together in a workspace. In the workspace, you could also add values manually. This is especially desirable for sensitive data, where only those with access to that workspace can access them. 
+Furthermore, an application can be deployed on top of a Google Kubernetes Engine (GKE) cluster using Terraform. Hence the next step is to define the GKE cluster in Terraform. Using Terraform Cloud, multiple people could collaborate together in a workspace. In the workspace, you could also add values manually. This is especially desirable for sensitive data, where only those with access to that workspace can access them. 
 
 Once the GKE cluster is defined and provisioned, the application is ready to be deployed in the cluster made. 
 
