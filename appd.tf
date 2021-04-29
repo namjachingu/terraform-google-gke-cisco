@@ -3,7 +3,7 @@
   source  = "3191110276/appdynamics/kubernetes"
   version = "0.2.1"
 
-  filemame =  local_file.main.filename
+  filename =  local_file.main.filename
   
   appd_account_name        = var.appd_account_name 
   appd_global_account      = var.appd_global_account 
