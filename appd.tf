@@ -2,8 +2,10 @@
  module "appdynamics" {
   source  = "3191110276/appdynamics/kubernetes"
   version = "0.2.1"
-
-  filename =  local_file.main.filename
+ 
+  depends_on = [
+     local_file.kubeconfig   
+   ]
   
   appd_account_name        = var.appd_account_name 
   appd_global_account      = var.appd_global_account 
