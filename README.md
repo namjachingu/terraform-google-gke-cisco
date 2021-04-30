@@ -52,7 +52,7 @@ Ultimately, a kubeconfig file to access the GKE cluster is configured in `main.t
 
 ## Documentation
 
-The GKE cluster created in this project can be found at the following link: 
+The GKE module created in this project can be found at the following link: 
 
 https://registry.terraform.io/modules/namjachingu/gke-cisco/google/latest
 
