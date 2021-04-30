@@ -13,7 +13,7 @@ For this software project, the following tasks have been performed:
 - Components that interact with the app have been set up. 
 - GKE clusters have been set up. 
 
-This project is two-folded - this part focuses on deploying a GKE cluster and having AppDynamics deployed in it.
+This project is two-folded; this part focuses on deploying a GKE cluster and having AppDynamics deployed in it.
 
 ## Solution Components
 - Terraform
