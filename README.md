@@ -48,12 +48,12 @@ Modules defined in `main.tf` are a collection of resources. They can be referenc
 
 The GKE module creates the actual GKE cluster. Specifications such as name, regions, network, node pools, storage, and virtual hardware resources are defined in this module. 
 
-Additionally, a kubeconfig file to access the GKE cluster is configured as a resource. This file is loaded to the AppDynamics module in order to implement AppDynamics on the cluster. 
+Additionally, a kubeconfig file to access the GKE cluster is configured as a resource. This file is loaded to the AppDynamics module to implement AppDynamics on the cluster. 
 
 
 ## Documentation
 
-The GKE cluster created in this project can be found in the following link: 
+The GKE cluster created in this project can be found at the following link: 
 
 https://registry.terraform.io/modules/namjachingu/gke-cisco/google/latest
 
