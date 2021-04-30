@@ -38,7 +38,7 @@ Finally, you can check in the AppDynamics UI whether the cluster has been succes
 
 **Terraform template**
 
-This t
+This template provides the basic elements and structure of a GKE cluster. It includes the following scripts: 
 
 - `variables.tf` defines the variables and the values that the variables hold for the cluster. The values can also be defined in Terraform cloud. 
 - `provider.tf` defines the providers for the cluster. Google and Kubernetes providers were defined. 
@@ -46,9 +46,14 @@ This t
 
 Modules defined in `main.tf` are a collection of resources. They can be referenced anywhere where the details in that module could be useful. A GCP network module was defined to create a VPC for the cluster and sets up subnet ranges for the pods and services. The GKE module creates the actual GKE cluster. Specifications such as name, regions, network, node pools, storage, and virtual hardware resources are defined in this module. 
 
-Additionally, a kubeconfig file is configured to access the GKE cluster. This is added to the AppDynamics module. 
+Additionally, a kubeconfig file to access the GKE cluster is configured as a resource. This file is loaded to the AppDynamics module in order to implement AppDynamics on the cluster. 
 
 
+## Documentation
+
+The GKE cluster created in this project can be found in the following link: 
+
+https://registry.terraform.io/modules/namjachingu/gke-cisco/google/latest
 
 
 ## Sponsors
