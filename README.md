@@ -28,7 +28,7 @@ It is recommended to set up your environment as followed:
 
 The first step to deploying an application in the cloud is to choose a cloud platform to deploy a Kubernetes cluster on. For this project, Google Cloud Platform was chosen as the cloud provider. A Google Cloud Platform (GCP) account was set up.
 
-![Uploading Screenshot 2021-05-02 at 12.14.07.png…]()
+<img width="470" alt="Screenshot 2021-05-02 at 12 14 07" src="https://user-images.githubusercontent.com/56272326/116809748-e6e52b80-ab3f-11eb-9fb7-60bb29e982a5.png">
 
 Furthermore, an application can be deployed on top of a Google Kubernetes Engine (GKE) cluster using Terraform. Hence, the next step is to define the GKE cluster in Terraform. Using a version control, such as GitHub, multiple people could collaborate at the same time. Terraform Cloud integreates with GitHub, such that Terraform runs automatically when changes are committed to the specified GitHub branch. Another benefit of using Terraform Cloud is that you can add values manually in a workspace. This is especially desirable for sensitive data, where only those with access to that workspace can access them. 
 
