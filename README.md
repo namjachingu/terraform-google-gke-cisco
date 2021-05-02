@@ -30,7 +30,9 @@ The first step to deploying an application in the cloud is to choose a cloud pla
 
 Furthermore, an application can be deployed on top of a Google Kubernetes Engine (GKE) cluster using Terraform. Hence, the next step is to define the GKE cluster in Terraform.
 
+<p align="center">
 <img width="470" alt="Screenshot 2021-05-02 at 12 14 07" src="https://user-images.githubusercontent.com/56272326/116809748-e6e52b80-ab3f-11eb-9fb7-60bb29e982a5.png">
+</p>
 
 Using version control such as GitHub and Terraform Cloud, multiple people could collaborate at the same time. Terraform Cloud integrates with GitHub, enabling Terraform to run automatically when changes are committed to the specified GitHub branch. Another benefit of using Terraform Cloud is that you can add values manually in a workspace. This is especially desirable for sensitive data, where only those with access to that workspace can access them. 
 
