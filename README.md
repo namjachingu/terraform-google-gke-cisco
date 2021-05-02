@@ -42,8 +42,6 @@ Finally, you can check in the AppDynamics UI whether the cluster has been succes
 
 **Provisioning infrastructure with Terraform**
 
-Terraform creates, modifies, and destroys infrastructure resources to match the desired state described in a Terraform configuration. You can either use the Terraform CLI or Terraform Cloud to run Terraform. 
-
 The Terraform scripts in this project provide the basic elements and structure of a GKE cluster. It includes the following scripts: 
 
 - `variables.tf` defines the variables and the values that the variables hold for the cluster. The values can also be defined in Terraform cloud. 
