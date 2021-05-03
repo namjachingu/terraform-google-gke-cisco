@@ -61,7 +61,7 @@ https://registry.terraform.io/modules/namjachingu/gke-cisco/google/latest
 
 ## Credits
 
-This part of the project was inspired by the following article:
+This project was inspired by the following article:
 
 https://learnk8s.io/terraform-gke
 
