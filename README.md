@@ -64,11 +64,3 @@ https://registry.terraform.io/modules/namjachingu/gke-cisco/google/latest
 This project was inspired by the following article:
 
 https://learnk8s.io/terraform-gke
-
-## Sponsors
-
-The field sponsor for this project is Michael Maurer and ASE manager is Nicholas Nicolas Cervigni. 
-
-
-
-
