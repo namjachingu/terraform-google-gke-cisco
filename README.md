@@ -104,7 +104,7 @@ module "gke" {
 }
 ```
 
-The GKE module creates the actual GKE cluster. Specifications such as name, regions, node pools, storage, and virtual hardware resources are defined in this module. The GCP-network module mentioned earlier is also referenced in this module in order to route traffic within the same node, between nodes of the same cluster, and other network-enabled resources on the same VPC. 
+The GKE module creates the actual GKE cluster. Specifications such as name, regions, node pools, storage, and virtual hardware resources are defined in this module. The GCP network module mentioned earlier is also referenced in this module in order to route traffic within the same node, between nodes of the same cluster, and other network-enabled resources on the same VPC. 
 
 ```
 resource "local_file" "kubeconfig" {
