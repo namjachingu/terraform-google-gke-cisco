@@ -50,7 +50,7 @@ The Terraform scripts in this project provide the basic elements and structure o
 
 Modules defined in `main.tf` are a collection of resources. They can be referenced anywhere where the details in that particular module would be useful. A GCP network module was defined to create a VPC for the cluster and set up subnet ranges for the pods and services. The GKE module creates the actual GKE cluster. Specifications such as name, regions, network, node pools, storage, and virtual hardware resources are defined in this module. 
 
-Ultimately, a kubeconfig file to access the GKE cluster is configured in `main.tf`. This file organizes information about the GKE cluster and authentication mechanisms. The kubeconfig file is further used in a module made for AppDynamic, which is how AppDynamics is implemented on the cluster. 
+Ultimately, a kubeconfig file to access the GKE cluster is configured in `main.tf`. This file organizes information about the GKE cluster and authentication mechanisms. The kubeconfig file is further used in a module made for AppDynamics, which is how AppDynamics is implemented on the cluster. 
 
 ## Documentation
 
