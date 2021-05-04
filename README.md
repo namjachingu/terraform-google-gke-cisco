@@ -106,7 +106,7 @@ module "gke" {
 
 The GKE module creates the actual GKE cluster. Specifications such as name, regions, node pools, storage, and virtual hardware resources are defined in this module. The GCP network module mentioned earlier is also referenced in this module in order to route traffic within the same node, between nodes of the same cluster, and other network-enabled resources on the same VPC. 
 
-Ultimately, the credentials for the GKE cluster can be found in your Google Service Account. The mentioned credentials can be referenced in Terraform, where they are used to authenticate to the created GKE cluster. An AppDynamics module can further fetch the GKE cluster using the credentials, allowing the application to be deployed on the GKE cluster. 
+Ultimately, the credentials and certificates for the GKE cluster can be found in your Google Service Account. They can be referenced in Terraform, where they are used to authenticate to the created GKE cluster. An AppDynamics module can further fetch the GKE cluster using the credentials, allowing the application to be deployed on the GKE cluster. 
 
 
 ## Documentation
