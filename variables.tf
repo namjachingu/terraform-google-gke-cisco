@@ -29,11 +29,6 @@ variable "secretkey" {
   type    = string
 }
 
-variable "te_token" {
-  description = "ThousandEyes token."
-  type = string  
-}
-
 variable "project" {
   description = "The GCP Project ID."
   type = string
@@ -49,7 +44,6 @@ variable "region" {
   description = "The region to host the GKE cluster in."
   type = string
 }
-
 
 variable "appd_account_name" {
   description = "Account name needed to log into AppDynamics Dashboard."
