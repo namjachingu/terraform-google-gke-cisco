@@ -24,11 +24,6 @@ variable "apikey" {
   type    = string
 }
 
-variable "secretkey" {
-  description = "Intersight API Secret Key"
-  type    = string
-}
-
 variable "project" {
   description = "The GCP Project ID."
   type = string
