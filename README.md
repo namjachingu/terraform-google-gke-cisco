@@ -80,3 +80,16 @@ The GKE module creates the actual GKE cluster. Specifications such as name, regi
 Ultimately, the credentials for the GKE cluster can be found in your Google Service Account. They can be referenced in Terraform, where they are used to authenticate and connect to the created GKE cluster. An AppDynamics module can further fetch the GKE cluster using the credentials, allowing the application to be deployed on the GKE cluster. 
 
 
+
+## Inputs
+
+| Name | Description | Required |
+|------|-------------|:--------:|
+| <a name="input_project"></a> [project](#input\_project) | The GCP Project ID. | yes |
+| <a name="input_region"></a> [region](#input\_region) |The region to host the GKE cluster in.| yes |
+| <a name="input_location"></a> [location](#input\_location) |The location (zone) in the region to host the GKE cluster. | yes |
+| <a name="input_appd_account_name"></a> [appd\_account\_name](#input\_appd\_account\_name) | Account name needed to log into AppDynamics Dashboard. | yes |
+| <a name="input_appd_global_account"></a> [appd\_global\_account](#input\_appd\_global\_account) | Global AppDynamics account. Found in AppDynamics Dashboard under Settings - License - Account. | yes |
+| <a name="input_appd_controller_key"></a> [appd\_controller\_key](#input\_appd\_controller\_key) | AppDynamics controller key. Found in AppDynamics Dashboard under Settings - License - Account. | yes |
+| <a name="input_appd_username"></a> [appd\_username](#input\_appd\_username) | Username needed to log into AppDynamics Dashboard. | yes |
+| <a name="input_appd_password"></a> [appd\_password](#input\_appd\_password) | Password needed to log into AppDynamics Dashboard. | yes |
