@@ -83,13 +83,13 @@ Ultimately, the credentials for the GKE cluster can be found in your Google Serv
 
 ## Inputs
 
-| Name | Description | Required |
-|------|-------------|:--------:|
-| <a name="project"></a> [project](#input\_project) | The GCP Project ID. | yes |
-| <a name="region"></a> [region](#input\_region) |The region to host the GKE cluster in.| yes |
-| <a name="location"></a> [location](#input\_location) |The location (zone) in the region to host the GKE cluster. | yes |
-| <a name="appd_account_name"></a> [appd\_account\_name](#input\_appd\_account\_name) | Account name needed to log into AppDynamics Dashboard. | yes |
-| <a name="appd_global_account"></a> [appd\_global\_account](#input\_appd\_global\_account) | Global AppDynamics account. Found in AppDynamics Dashboard under Settings - License - Account. | yes |
-| <a name="appd_controller_key"></a> [appd\_controller\_key](#input\_appd\_controller\_key) | AppDynamics controller key. Found in AppDynamics Dashboard under Settings - License - Account. | yes |
-| <a name="appd_username"></a> [appd\_username](#input\_appd\_username) | Username needed to log into AppDynamics Dashboard. | yes |
-| <a name="appd_password"></a> [appd\_password](#input\_appd\_password) | Password needed to log into AppDynamics Dashboard. | yes |
+| Name | Description | Type | Required |
+|------|-------------|-------|:--------:|
+| <a name="project"></a> [project](#input\_project) | The GCP Project ID. | `string` | yes |
+| <a name="region"></a> [region](#input\_region) | The region to host the GKE cluster in. | `string` | yes |
+| <a name="location"></a> [location](#input\_location) | The location (zone) in the region to host the GKE cluster. | `string` | yes |
+| <a name="appd_account_name"></a> [appd\_account\_name](#input\_appd\_account\_name) | Account name needed to log into AppDynamics Dashboard. | `string` | yes |
+| <a name="appd_global_account"></a> [appd\_global\_account](#input\_appd\_global\_account) | Global AppDynamics account. Found in AppDynamics Dashboard under Settings - License - Account. | `string` | yes |
+| <a name="appd_controller_key"></a> [appd\_controller\_key](#input\_appd\_controller\_key) | AppDynamics controller key. Found in AppDynamics Dashboard under Settings - License - Account. | `string` | yes |
+| <a name="appd_username"></a> [appd\_username](#input\_appd\_username) | Username needed to log into AppDynamics Dashboard. | `string` | yes |
+| <a name="appd_password"></a> [appd\_password](#input\_appd\_password) | Password needed to log into AppDynamics Dashboard. | `string` | yes |
