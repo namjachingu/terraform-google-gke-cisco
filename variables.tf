@@ -8,15 +8,15 @@ variable "project" {
   type = string
 }
 
-variable "location" {
-  description = "The location or zone broken down by region to host the GKE cluster."
-  type        = string
-  default = "europe-west3-a"	
-}
-
 variable "region" {
   description = "The region to host the GKE cluster in."
   type = string
+}
+
+variable "location" {
+  description = "The location (zone) in the region to host the GKE cluster."
+  type        = string
+  default = "europe-west3-a"	
 }
 
 variable "appd_account_name" {
