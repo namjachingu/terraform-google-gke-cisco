@@ -9,7 +9,7 @@ variable "project" {
 }
 
 variable "location" {
-  description = "The location (region or zone) to host the GKE cluster."
+  description = "The location or zone broken down by region to host the GKE cluster."
   type        = string
   default = "europe-west3-a"	
 }
