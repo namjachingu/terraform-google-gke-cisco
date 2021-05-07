@@ -80,15 +80,3 @@ The GKE module creates the actual GKE cluster. Specifications such as name, regi
 Ultimately, the credentials for the GKE cluster can be found in your Google Service Account. They can be referenced in Terraform, where they are used to authenticate and connect to the created GKE cluster. An AppDynamics module can further fetch the GKE cluster using the credentials, allowing the application to be deployed on the GKE cluster. 
 
 
-## Documentation
-
-The GKE module created in this project is also published in the following Terraform registery: 
-
-https://registry.terraform.io/modules/namjachingu/gke-cisco/google/latest
-
-
-## Credits
-
-This project was inspired by the following article:
-
-https://learnk8s.io/terraform-gke
